@@ -1,0 +1,315 @@
+.marketing_box{
+    margin-top: 50px;
+}
+.serve_title_box{
+    border-bottom: 1px solid #ddd;
+}
+
+/*小程序*/
+.apps{
+    padding: 45px 0;
+    dl{
+        text-align: center;
+        display: flex;
+        -webkit-flex: flex;
+        flex-direction:column;
+        align-items: center;
+        padding:0 33px;
+        height:350px;
+        border:1px solid #ddd;
+        transition:.35s;
+        -moz-transition:.35s; /* Firefox 4 */
+        -webkit-transition:.35s; /* Safari 和 Chrome */
+        -o-transition:.35s; /* Opera */
+    }
+    dt{
+        width: 120px;
+        height: 120px;
+        border:1px solid #ddd;
+        border-radius:50%;
+        display: flex;
+        -webkit-flex: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:49px;
+        transition:.35s;
+        -moz-transition:.35s; /* Firefox 4 */
+        -webkit-transition:.35s; /* Safari 和 Chrome */
+        -o-transition:.35s; /* Opera */
+    }
+    .img1{
+        opacity:1;
+        position:absolute;
+        transition:.35s;
+        -moz-transition:.35s; /* Firefox 4 */
+        -webkit-transition:.35s; /* Safari 和 Chrome */
+        -o-transition:.35s; /* Opera */
+    }
+    .img2{
+        opacity:0;
+        position:absolute;
+        transition:.35s;
+        -moz-transition:.35s; /* Firefox 4 */
+        -webkit-transition:.35s; /* Safari 和 Chrome */
+        -o-transition:.35s; /* Opera */
+    }
+    h4{
+        font-size:18px;
+        color:#333;
+        line-height: 18px;
+        margin:30px 0;
+        transition:.35s;
+        -moz-transition:.35s; /* Firefox 4 */
+        -webkit-transition:.35s; /* Safari 和 Chrome */
+        -o-transition:.35s; /* Opera */
+    }
+    p{
+        font-size:14px;
+        color:#888;
+        transition:.35s;
+        -moz-transition:.35s; /* Firefox 4 */
+        -webkit-transition:.35s; /* Safari 和 Chrome */
+        -o-transition:.35s; /* Opera */
+    }
+    dl:hover{
+        transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        /* IE 9 */
+        -webkit-transform:  translateY(-20px);
+        /* Safari and Chrome */
+        -moz-transform:  translateY(-20px);
+        /* Firefox */
+        border:1px solid #e5000c;
+
+        dt{
+            border:1px solid #e5000c;
+        }
+        h4{
+            color:#e5000c;
+        }
+        p{
+            color:#e5000c;
+        }
+        .img1{
+            opacity:0;
+        }
+        .img2{
+            opacity:1;
+        }
+    }
+}
+.apps_pag {
+  display: none;
+}
+.apps_pag .swiper-pagination-bullet {
+  width: 15px;
+  height: 1px;
+  background: #0d0d0d;
+  border-radius: 0;
+  opacity: 0.7;
+}
+.apps_pag .swiper-pagination-bullet-active {
+  background: #da010c;
+}
+/*小程序 结束*/
+
+/*小程序大应用*/
+.apply{
+    width: 100%;
+    background:#f6f6f6;
+    padding-bottom:45px;
+    ul{
+        width: 100%;
+        display: flex;
+        -webkit-flex: flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+        color:#333;
+        li{
+            width: 30%;
+            background:#fff;
+            margin-top:45px;
+        }
+        h4{
+            font-size:16px;
+            margin-left:15px;
+            line-height:32px;
+        }
+        p{
+            font-size:18px;
+            margin-left:15px;
+            line-height:32px;
+        }
+        img{
+            width: 100%;
+        }
+    }
+}
+.knowMore_box{
+    margin-top:45px;
+}
+@media (max-width:1100px){
+    .apply ul li{
+        width: 45%;
+    }
+}
+@media (max-width:800px){
+    .apply ul li{
+        width:80%;
+    }
+    .apply ul{
+        justify-content:space-around;
+    }
+}
+/*小程序大应用 结束*/
+
+/*三种主流注册模式*/
+.model{
+    padding-top:30px;
+    dl{
+        text-align: center;
+        display: flex;
+        -webkit-flex: flex;
+        flex-direction:column;
+        align-items: center;
+        height:300px;
+    }
+    dt{
+        width: 120px;
+        height: 120px;
+        border:1px solid #ddd;
+        border-radius:50%;
+        display: flex;
+        -webkit-flex: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:49px;
+    }
+    .img1{
+        opacity:1;
+        position:absolute;
+    }
+    .img2{
+        opacity:0;
+        position:absolute;
+    }
+    h4{
+        font-size:18px;
+        color:#333;
+        line-height: 18px;
+        margin:30px 0;
+    }
+    p{
+        font-size:14px;
+        color:#888;
+    }
+    dl:hover{
+        dt{
+            border:1px solid #e5000c;
+        }
+        h4{
+            color:#e5000c;
+        }
+        .img1{
+            opacity:0;
+        }
+        .img2{
+            opacity:1;
+        }
+    }
+}
+.model_pag {
+  display: none;
+}
+.model_pag .swiper-pagination-bullet {
+  width: 15px;
+  height: 1px;
+  background: #0d0d0d;
+  border-radius: 0;
+  opacity: 0.7;
+}
+.model_pag .swiper-pagination-bullet-active {
+  background: #da010c;
+}
+/*三种主流注册模式 结束*/
+
+/*如何使用小程序？*/
+.use{
+    background:#333;
+    margin-top:45px;
+    .marketing_title {
+        span{
+            color:#fff;
+        }
+        b{
+            background:#fff;
+        }
+        dd{
+            color:#fff;
+        }
+    }
+    .img_box{
+        width: 100%;
+        margin:45px 0;
+        img{
+            width: 100%;
+        }
+    }
+
+}
+/*如何使用小程序？ 结束*/
+
+/*提升用户对品牌认知增加品牌形象*/
+.cognition{
+    width:100%;
+    display: flex;
+    -webkit-flex: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    dl{
+        width: 16%;
+        text-align: center;
+        display: flex;
+        -webkit-flex: flex;
+        flex-direction:column;
+        align-items: center;
+        height:300px;
+    }
+    dt{
+        width: 120px;
+        height: 120px;
+        border:1px solid #ddd;
+        border-radius:50%;
+        display: flex;
+        -webkit-flex: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:49px;
+    }
+    h4{
+        font-size:18px;
+        color:#333;
+        line-height: 18px;
+        margin:30px 0;
+    }
+    p{
+        font-size:14px;
+        color:#888;
+    }
+}
+@media (max-width:1000px){
+    .cognition dl{
+        width: 30%;
+    }
+}
+@media (max-width:578px){
+    .cognition dl{
+        width: 40%;
+    }
+}
+@media (max-width:300px){
+    .cognition dl{
+        width: 100%;
+    }
+}
+/*提升用户对品牌认知增加品牌形象 结束*/

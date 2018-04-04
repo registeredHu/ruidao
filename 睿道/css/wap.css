@@ -1,0 +1,31 @@
+.wapBox {
+  width: 100%;
+}
+.wapBox dl {
+  width: 100%;
+}
+.wapBox .word_box {
+  width: 50%;
+}
+.wapBox dd {
+  display: flex;
+  -webkit-flex: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wapBox h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+.wapBox p {
+  font-size: 14px;
+  color: #666;
+}
+.wapBox .img_box {
+  width: 36%;
+  margin: 40px 0;
+}
+.wapBox .img_box img {
+  width: 100%;
+}

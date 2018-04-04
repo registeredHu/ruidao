@@ -1,0 +1,436 @@
+.serve_box {
+  width: 100%;
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 45px;
+  height: auto;
+}
+.seo {
+  width: 100%;
+  display: flex;
+  -webkit-flex: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0;
+}
+.seo dl {
+  width: 60%;
+}
+.seo dt {
+  font-size: 16px;
+  color: #000;
+  line-height: 50px;
+  padding-left: 32px;
+}
+.seo dd {
+  color: #333;
+  font-size: 14px;
+  line-height: 24px;
+}
+.seo dt:nth-of-type(1) {
+  background: url('../images/optimize1.png') left center no-repeat;
+}
+.seo dt:nth-of-type(2) {
+  background: url('../images/optimize2.png') left center no-repeat;
+}
+.seo dt:nth-of-type(3) {
+  background: url('../images/optimize3.png') left center no-repeat;
+}
+.span_box {
+  width: 100%;
+  display: flex;
+  -webkit-flex: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+.span_box span {
+  padding: 8px 20px;
+  border-radius: 25px;
+  border: 1px solid #e5000c;
+  color: #e5000c;
+  margin: 10px 14px 0 0;
+}
+.seo_img {
+  width: 30%;
+}
+.seo_img img {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .seo {
+    flex-direction: column;
+  }
+  .seo dl {
+    width: 100%;
+  }
+}
+/*什么是SEO 结束*/
+/*SEO解决问题*/
+.seo_sovle {
+  background: #f6f6f6;
+  padding: 45px 0;
+  margin-bottom: 45px;
+}
+.sovle_list {
+  width: 100%;
+  display: flex;
+  -webkit-flex: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sovle_list li {
+  width: 18%;
+  text-align: center;
+  margin-top: 45px;
+}
+.sovle_list .li_up1 {
+  width: 100%;
+  height: 120px;
+  background: #fd6d49 url('../images/sovle1.png') center center no-repeat;
+}
+.sovle_list .li_up2 {
+  width: 100%;
+  height: 120px;
+  background: #bad878 url('../images/sovle2.png') center center no-repeat;
+}
+.sovle_list .li_up3 {
+  width: 100%;
+  height: 120px;
+  background: #4787b3 url('../images/sovle3.png') center center no-repeat;
+}
+.sovle_list .li_up4 {
+  width: 100%;
+  height: 120px;
+  background: #1ec2b8 url('../images/sovle4.png') center center no-repeat;
+}
+.sovle_list .li_up5 {
+  width: 100%;
+  height: 120px;
+  background: #ff3300 url('../images/sovle5.png') center center no-repeat;
+}
+.sovle_list h3 {
+  font-size: 16px;
+  color: #000;
+  margin-top: 35px;
+}
+.sovle_list p {
+  font-size: 14px;
+  color: #666;
+  line-height: 28px;
+}
+@media (max-width: 1000px) {
+  .sovle_list li {
+    width: 40%;
+  }
+}
+@media (max-width: 578px) {
+  .sovle_list {
+    justify-content: space-around;
+  }
+  .sovle_list li {
+    width: 80%;
+  }
+}
+/*SEO解决问题 结束*/
+/*为什么选择我们*/
+.chooseUs {
+  width: 100%;
+  display: flex;
+  -webkit-flex: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 45px;
+  text-align: center;
+}
+.chooseUs dd {
+  width: 18%;
+  border: 1px solid #efefef;
+  padding: 146px 23px 0 23px;
+  height: 289px;
+  margin-bottom: 45px;
+}
+.chooseUs h2 {
+  font-size: 16px;
+  color: #000;
+  line-height: 16px;
+  margin-bottom: 25px;
+}
+.chooseUs p {
+  font-size: 14px;
+  color: #666;
+}
+.chooseUs dd:first-child {
+  background: url('../images/optimize_logo1.png') center 39px no-repeat;
+}
+.chooseUs dd:nth-child(2) {
+  background: url('../images/optimize_logo2.png') center 39px no-repeat;
+}
+.chooseUs dd:nth-child(3) {
+  background: url('../images/optimize_logo3.png') center 39px no-repeat;
+}
+.chooseUs dd:nth-child(4) {
+  background: url('../images/optimize_logo4.png') center 39px no-repeat;
+}
+.chooseUs dd:nth-child(5) {
+  background: url('../images/optimize_logo5.png') center 39px no-repeat;
+}
+@media (max-width: 1000px) {
+  .chooseUs dd {
+    width: 40%;
+  }
+}
+@media (max-width: 678px) {
+  .chooseUs {
+    justify-content: space-around;
+  }
+  .chooseUs dd {
+    width: 80%;
+  }
+}
+/*为什么选择我们 结束*/
+/*seo全解析*/
+.flow {
+  background: #f6f6f6;
+  padding: 50px 0;
+  margin-bottom: 45px;
+}
+.flow_box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-flex: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 50px;
+}
+.flow_box h3 {
+  font-size: 20px;
+  width: 100%;
+  line-height: 40px;
+  margin: 0 0 15px 0;
+}
+.flow_box dt {
+  height: 36px;
+  margin: 0 0 3px 0;
+  color: #fff;
+  font-size: 16px;
+  background: #004986;
+  font-weight: normal;
+  line-height: 36px;
+}
+.flow_box dd {
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin: 0 0 3px 0;
+  color: #fff;
+  font-size: 12px;
+}
+/*站内优化*/
+.mid-term {
+  width: 45%;
+}
+.mid-term h3 {
+  color: #13c0ce;
+  border-bottom: 1px solid #13c0ce;
+}
+.mid-term .list_box {
+  width: 100%;
+  display: flex;
+  -webkit-flex: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.mid-term .list_box dl {
+  width: 30%;
+}
+.mid-term .list_box dd {
+  background: #13c0ce;
+}
+.mid-term .list_box dd:hover {
+  background: #009894;
+}
+/*站外优化*/
+.prophase {
+  width: 30%;
+}
+.prophase h3 {
+  color: #4489ca;
+  border-bottom: 1px solid #4489ca;
+}
+.prophase .list_box2 {
+  width: 100%;
+  display: flex;
+  -webkit-flex: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.prophase .list_box2 dl {
+  width: 45%;
+}
+.prophase .list_box2 dd {
+  background: #08acdb;
+}
+.prophase .list_box2 dd:hover {
+  background: #1b6dba;
+}
+/*数据分析*/
+.later-stage {
+  width: 14%;
+}
+.later-stage h3 {
+  color: #ff9900;
+  border-bottom: 1px solid #ff9900;
+}
+.later-stage dd {
+  background: #ff9900;
+}
+.later-stage dd:hover {
+  background: #e28800;
+}
+@media (max-width: 678px) {
+  .mid-term {
+    width: 100%;
+  }
+  .mid-term dl {
+    width: 100% !important;
+  }
+  .prophase {
+    width: 100%;
+  }
+  .prophase dl {
+    width: 100% !important;
+  }
+  .later-stage {
+    width: 100%;
+  }
+  .flow_box dd {
+    display: none;
+  }
+}
+/*seo全解析 结束*/
+/*服务流程*/
+.order_box {
+  width: 100%;
+  display: flex;
+  -webkit-flex: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  margin: 45px 0;
+}
+.order_box h3 {
+  font-size: 16px;
+  color: #000;
+  line-height: 26px;
+}
+.order_box p {
+  font-size: 14px;
+  color: #666;
+  line-height: 28px;
+}
+.order_box dd:nth-child(odd) {
+  padding-top: 95px;
+}
+.order_box dd:nth-child(even) {
+  padding-bottom: 95px;
+}
+@media (max-width: 345px) {
+  .order_box {
+    justify-content: space-around;
+  }
+  .order_box dd:nth-child(even) {
+    margin-top: 90px;
+  }
+  .order_box dd:nth-child(odd) {
+    padding-top: 0;
+  }
+}
+/*服务流程 结束*/
+.optimize_bg {
+  width: 100%;
+  background: url('../images/optimize_bg.jpg') center center no-repeat;
+  padding: 30px 0;
+  margin-bottom: 45px;
+}
+.optimize_bg ul {
+  margin: 33px 0 0 93px;
+}
+.optimize_bg li {
+  margin-bottom: 30px;
+}
+.optimize_bg span {
+  font-size: 18px;
+  color: #fff;
+  display: inline-block;
+  width: 254px;
+  height: 34px;
+  background: #9cb6d2;
+  border-radius: 5px;
+  line-height: 34px;
+  padding-left: 11px;
+  margin-bottom: 15px;
+}
+.optimize_bg p {
+  font-size: 14px;
+  color: #fff;
+  line-height: 28px;
+}
+.optimize_bg .bg_box img {
+  width: 100%;
+}
+.optimize_bg_inner {
+  width: 100%;
+  display: flex;
+  -webkit-flex: flex;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .optimize_bg ul {
+    margin: 33px 0 0 0;
+  }
+}
+.list_box {
+  width: 100%;
+  display: flex;
+  -webkit-flex: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.list_box ul {
+  width: 45%;
+  margin: 45px 0;
+}
+.list_box li {
+  font-size: 14px;
+  height: 38px;
+  line-height: 38px;
+  border-bottom: 1px  solid #ddd;
+  display: flex;
+  -webkit-flex: flex;
+  justify-content: space-between;
+}
+.list_box p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.list_box span {
+  margin: 0 10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.list_box li:hover {
+  color: #e5000c;
+}
+@media (max-width: 768px) {
+  .list_box {
+    justify-content: space-around;
+  }
+  .list_box ul {
+    width: 80%;
+  }
+}

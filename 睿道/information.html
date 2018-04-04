@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>案例_详情页</title>
+    <meta name=viewport content="width=device-width, initial-scale=1,minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper-4.1.0.min.css">
+    <link rel="stylesheet" type="text/css" href="css/comm.css">
+    <link rel="stylesheet" type="text/css" href="css/information.css">
+</head>
+<body>
+<!-- 顶部的导航条 -->
+  <div class="topbar hidden-xs"><!--hidden-xs意思是屏幕缩小到一定程度时隐藏 -->
+      <div class="container">
+          <div class="topbar_l">
+              7年品牌网站建设专家——成都睿道网络科技有限公司
+          </div>
+          <div class="topbar_r">
+              <ul>
+                  <li class="tel">135-4105-9329</li>
+                  <li class="online">在线咨询</li>
+                  <li class="wechat">微信咨询</li>
+              </ul>
+          </div>
+      </div>
+  </div>
+<!--顶部的导航条 结束  -->
+
+<!-- 导航条 -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+      <!-- 屏幕缩小时  导航条部分隐藏 右边出现的下拉按钮  -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subnav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img src="images/index_header_logo.png" />
+        </a>
+        <div class="location hidden-sm hidden-xs">
+          <p><span>7年</span>武汉 · 成都</p>
+          <p>因为专业 · 所以做得更好</p>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse" id="subnav">
+        <ul class="nav navbar-nav">
+           <li><a href="index.html" >首页</a></li>
+          <li><a href="marketing.html">服务</a></li>
+          <li><a href="cases.html" class="active">案例</a></li>
+          <li><a href="plan.html">方案</a></li>
+          <li><a href="news.html">新闻</a></li>
+          <li><a href="about.html">关于</a></li>
+          <li><a href="contact.html">联系</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- 导航条 结束-->
+
+<!-- banner -->
+  <div class="swiper-container banner">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/infor_banner1.jpg"/></div>
+      <div class="swiper-slide"><img src="images/infor_banner2.jpg"/></div>
+    </div>
+    <!-- 分页按钮 -->
+    <div class="banner_pag swiper-pagination"></div>
+  </div>
+<!-- banner 结束 -->
+
+<div class="container">
+    <!-- 当前位置 -->
+        <div class="current">
+            <span>当前位置>首页>客户案例<b></b></span>
+        </div>
+    <!-- 当前位置 结束 -->
+    <div class="box">
+      <dl class="box_right">
+        <dt>
+            <h2>沐舒沐兰</h2>
+            <p>化妆品行业/营销型网站</p>
+        </dt>
+        <dd>沐舒沐兰（muse  mura）化妆品有限公司是一家专注于洗护
+            产品和香薰产品研发、生产、销售为一体的多元化公司。目
+            前致力于研发手工皂、精油沐浴球和香薰等系列产品，已研
+            发生产百余款品种，产品营销覆盖多个省市。公司不断完善
+            内部营运，品控服务流程，坚实打造业内具有影响的企业。
+            同时不间断的新品呈现并创造出骄人业绩，为公司的长足发
+            展奠定基础。</dd>
+        <dd class="small_box">
+            <div class="small swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/casemore1(1).jpg"></div>
+                <div class="swiper-slide"><img src="images/casemore2.png"></div>
+                <div class="swiper-slide"><img src="images/casemore3.jpg"></div>
+                <div class="swiper-slide"><img src="images/casemore4.png"></div>
+              </div>
+              <!-- Add Arrows -->
+            </div>
+            <div class="small_next swiper-button-next"></div>
+            <div class="small_prev swiper-button-prev"></div>
+        </dd>
+        <dd>
+            <span>浏览该网站</span>
+            <span>www.musemura.cn</span>
+        </dd>
+        <dd>
+            <img src="images/infor_code.jpg">
+        </dd>
+      </dl>
+      <div class="box_left">
+          <div class="infor swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="images/casemore1(1).jpg"></div>
+              <div class="swiper-slide"><img src="images/casemore2.png"></div>
+              <div class="swiper-slide"><img src="images/casemore3.jpg"></div>
+              <div class="swiper-slide"><img src="images/casemore4.png"></div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="infor_next swiper-button-next"></div>
+            <div class="infor_prev swiper-button-prev"></div>
+          </div>
+       </div>
+    </div>
+</div>
+
+<!-- 页脚一 -->
+  <div class="foot1 hidden-xs">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-xs-4">Links</div>
+        <div class="col-md-4 col-xs-8">
+          <a href="#">B2B导航网</a>&nbsp;
+          <a href="#"> 武汉网站建设</a>&nbsp;
+          <a href="#">成都睿道网</a></div>
+      </div>
+    </div>
+  </div>
+<!-- 页脚一 结束 -->
+
+<!-- 页脚二 -->
+  <div class="foot2 hidden-sm hidden-xs">
+    <div class="container">
+      <dl>
+        <dd class="d1"><p>7年全国网站</p><p>建站制作服务</p></dd>
+        <dd class="d2"><p>7年全国网站</p><p>建站制作服务</p></dd>
+        <dd class="d3"><p>7年全国网站</p><p>建站制作服务</p></dd>
+        <dd class="d4"><p>7年全国网站</p><p>建站制作服务</p></dd>
+        <dd class="d5"><p>7年全国网站</p><p>建站制作服务</p></dd>
+        <dd class="d6"><p>7年全国网站</p><p>建站制作服务</p></dd>
+        <dd class="d7"><p>7年全国网站</p><p>建站制作服务</p></dd>
+        <dd class="d8"><p>7年全国网站</p><p>建站制作服务</p></dd>
+      </dl>
+    </div>
+  </div>
+<!-- 页脚二 结束-->
+
+<!-- 页脚三 -->
+  <div class="foot3 hidden-sm hidden-xs">
+    <div class="container">
+        <div class="ul_box">
+          <ul>
+            <li>定制项目套餐</li>
+            <li>品牌形象网站建设</li>
+            <li>企业宣传网站建设</li>
+            <li>电子商务网站建设</li>
+            <li>行业门户网站建设</li>
+            <li>微官网开发</li>
+          </ul>
+          <ul>
+            <li>模版网站分类</li>
+            <li>企业模版网站</li>
+            <li>商城模版网站</li>
+            <li>全Flash网站</li>
+            <li>手机网站模版</li>
+          </ul>
+          <ul>
+            <li>数据基础业务</li>
+            <li>域名注册</li>
+            <li>云主机/云虚机</li>
+            <li>企业邮箱</li>
+            <li>400电话</li>
+          </ul>
+          <ul>
+            <li>网站制作</li>
+            <li>服务项目</li>
+            <li>制作流程</li>
+            <li>建站优势</li>
+            <li>网站案例</li>
+            <li>建站资讯</li>
+          </ul>
+           <ul>
+            <li>微信服务</li>
+            <li>为什么选择微信营销</li>
+            <li>微信营销解决方案</li>
+            <li>我们的优势</li>
+            <li>微信资讯</li>
+            <li>微信案例</li>
+          </ul>
+          <div class="map hidden-md hidden-sm hidden-xs">
+            <img src="images/chicken.png"/>
+          </div>
+        </div>
+    </div>
+  </div>
+<!-- 页脚三 结束 -->
+
+<!-- 页脚四-->
+  <div class="foot4">
+    版权所有©Copyright 2017
+  </div>
+<!-- 页脚四 结束-->
+<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.js"></script>
+<script src="js/swiper-4.1.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/myScript.js"></script>
+<script src="js/information.js"></script>
+</body>
+</html>

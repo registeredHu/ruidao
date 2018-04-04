@@ -1,0 +1,40 @@
+.case_box {
+  width: 100%;
+}
+.case_box ul {
+  width: 100%;
+  display: flex;
+  -webkit-flex: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.case_box li {
+  width: auto;
+  width: 33%;
+  margin-bottom: 45px;
+}
+.case_box li img {
+  width: 100%;
+}
+.case_box h3 {
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+}
+.case_box p {
+  width: 100%;
+  font-size: 14px;
+  color: #999;
+  text-align: center;
+  margin-top: 10px;
+}
+@media (max-width: 1200px) {
+  .case_box li {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .case_box li {
+    width: 100%;
+  }
+}

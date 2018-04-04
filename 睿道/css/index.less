@@ -1,0 +1,403 @@
+/*banner*/
+.banner{
+    img{
+        width: 100%;
+    }
+    .swiper-pagination-bullet{
+        width:42px;
+        height:2px;
+        background:#0d0d0d;
+        border-radius:0;
+        opacity: 0.7;
+    }
+    .swiper-pagination-bullet-active{
+        background:#da010c;
+    }
+}
+.service_up{
+    p{
+        font-size:14px;
+        color:#666;
+        text-align: center;
+    }
+}
+/*banner 结束*/
+
+/*服务领域*/
+.service_down{
+     margin-top: 55px;
+    text-align:center;
+    padding-bottom:40px;
+    dt{
+        margin-bottom:26px;
+        p{
+            color:#e5000c;
+            font-size:20px;
+            line-height: 20px;
+            margin-top: 22px;
+        }
+    }
+    dd:nth-child(2){
+        color:#999;
+        font-size:11px;
+        line-height:20px;
+        height:102px;
+    }
+    dd:last-child{
+        width:100%;
+        display: flex;
+        -webkit-flex: flex;
+        flex-wrap:wrap;
+        justify-content:space-around;
+    }
+    button{
+        width:48%;
+        margin-bottom:6px;
+        height:24px;
+        border:1px solid #e5e5e5;
+        text-align:center;
+        background:#fff;
+        border-radius:2px;
+        a{
+            color:#333;
+            font-size:11px;
+            line-height:24px;
+            width:100%;
+            height:100%;
+        }
+    }
+    button:hover{
+        border:1px solid #e5000c;
+        a{
+            color:#e5000c;
+        }
+    }
+    .active{
+        border:1px solid #e5000c;
+        a{
+            color:#e5000c;
+        }
+    }
+}
+/*分页器*/
+.service_down_pag{
+    display: none;
+}
+.service_down_pag .swiper-pagination-bullet{
+    width:25px;
+    height:2px;
+    background:#0d0d0d;
+    border-radius:0;
+    opacity: 0.7;
+}
+.service_down_pag .swiper-pagination-bullet-active{
+    background:#da010c;
+}
+/*分页器 结束*/
+
+/*服务领域 结束*/
+
+/*网站建设与营销案例*/
+.case{
+    width:100%;
+    height:auto;
+    background:url('../images/index_waist.jpg')no-repeat;
+    background-size:100% 100%;
+    padding:23px 0 45px 0;
+    text-align:center;
+    .title{
+        width:100%;
+        display: flex;
+        -webkit-flex: flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        li{
+            width:120px;
+            height:32px;
+            line-height:32px;
+            text-align:center;
+            font-size:14px;
+            color:#333;
+            border-radius:4px;
+            background:#e9e9e9;
+            margin-top:45px;
+            margin-right: 10px;
+        }
+        .active{
+            color:#fff;
+            background:#e5000c;
+        }
+    }
+}
+.cases dl{
+    width:100%;
+    display: flex;
+    -webkit-flex: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin-top:49px;
+    dd{
+        text-align:left;
+        margin-bottom:50px;
+        color:#6b6b6b;
+        font-size:13px;
+        line-height:23px;
+        background:#fff;
+        padding:18px 15px 5px 15px;
+        border-radius:6px;
+        box-shadow:7px 7px 20px #ccc;
+    }
+    span{
+        margin-right:20px;
+    }
+}
+.knowMore{
+    width:262px-28px;
+    height:46px;
+    border-radius:25px;
+    border:1px solid #e5000c;
+    background:none;
+    text-align:left;
+    padding-left: 28px;
+    line-height:46px ;
+    color:#e5000c;
+    font-size:16px;
+    background:url('../images/index_waistbuttom1.png')170px center no-repeat;
+}
+/*网站建设与营销案例 结束*/
+
+/*服务优势*/
+.advantage{
+    width:100%;
+    margin-top:45px;
+    .swiper-wrapper{
+        padding-top: 65px;
+    }
+    dl{
+        padding:72px 25px 28px;
+        border:1px solid #eaeaea;
+        margin-bottom:75px;
+        text-align:center;
+        background:#fff;
+        color:#666;
+        transition:.35s;
+        span{
+            width:24px;
+            height:24px;
+            display:inline-block;
+            border:1px solid #eaeaea;
+            background:url('../images/index_adlist6.png')center center no-repeat;
+        }
+    }
+    dt{
+        width:88px;
+        height:88px;
+        border-radius:50%;
+        border:1px solid #eaeaea;
+        background:#fff url('../images/index_adlist1.png')center center no-repeat;
+        position:absolute;
+        top:-45px;
+        left:50%;
+        margin-left:-45px;
+    }
+    h2{
+        font-size:16px;
+        font-weight:bold;
+        line-height:16px;
+        margin-bottom:30px;
+    }
+    p{
+        font-size:14px;
+        line-height:24px;
+        height:156px;
+        text-align:left;
+    }
+
+    dl:nth-child(2) dt{
+        background:#fff url('../images/index_adlist2.png')center center no-repeat;
+    }
+    dl:nth-child(3) dt{
+        background:#fff url('../images/index_adlist3.png')center center no-repeat;
+    }
+    dl:nth-child(4) dt{
+        background:#fff url('../images/index_adlist4.png')center center no-repeat;
+    }
+    dl:nth-child(5) dt{
+        background:#fff url('../images/index_adlist5.png')center center no-repeat;
+    }
+    dl:hover{
+        transform: translate(-10px,-20px);
+        -ms-transform: translate(-10px,-20px);/* IE 9 */
+        -webkit-transform: translate(-10px,-20px);/* Safari and Chrome */
+        -o-transform: translate(-10px,-20px);/* Opera */
+        -moz-transform: translate(-10px,-20px);/* Firefox */
+        box-shadow:8px 8px 10px #ccc;
+        color:#e5000c;
+    }
+}
+.advantage_pag{
+    display: none;
+}
+.advantage_pag .swiper-pagination-bullet{
+    width:30px;
+    height:2px;
+    background:#0d0d0d;
+    border-radius:0;
+    opacity: 0.7;
+}
+.advantage_pag .swiper-pagination-bullet-active{
+    background:#da010c;
+}
+/*服务优势 结束*/
+
+/*在线咨询*/
+.consult{
+    width:100%;
+    height:auto;
+    background:url('../images/index_belly.jpg')center center no-repeat;
+    // background-size:100% 100%;
+    padding:87px 0 117px;
+    text-align:center;
+    h2{
+        font-size:28px;
+        color:#fff;
+        font-weight:bold;
+        line-height:28px;
+        margin-bottom:40px;
+    }
+    p{
+        font-size:14px;
+        color:#fff;
+        line-height:26px;
+    }
+    button{
+        width:150px;
+        height:46px;
+        line-height:46px;
+        text-align:center;
+        font-size:16px;
+        color:#fff;
+        border-radius:5px;
+        border:0;
+        margin-top:53px;
+        margin-right:10px;
+    }
+    button:nth-last-child(2){
+        background:#e5000c;
+    }
+    button:last-child{
+        background:#0689f9;
+    }
+}
+/*在线咨询 结束*/
+
+/*合作伙伴*/
+.partner{
+    display: flex;
+    -webkit-flex: flex;
+    flex-wrap:wrap;
+    margin-top:36px;
+    margin-bottom:45px;
+    border-top:1px solid #eaeaea;
+    border-left:1px solid #eaeaea;
+    text-align:center;
+
+    dd{
+        position:relative;
+        height:140px;
+        width:20%;
+        border-right:1px solid #eaeaea;
+        border-bottom:1px solid #eaeaea;
+        overflow:hidden;
+    }
+    ul{
+        position:absolute;
+        width:100%;
+        height:280px;
+    }
+    li{
+        width:100%;
+        display: flex;
+        -webkit-flex: flex;
+        align-items:center;
+        justify-content:center;
+        height:140px;
+    }
+}
+@media (max-width:1200px){
+    .partner dd{
+        width:25%;
+    }
+}
+@media (max-width:1000px){
+    .partner dd{
+        width:33%;
+    }
+}
+@media (max-width:768px){
+    .partner dd{
+        width:50%;
+    }
+}
+@media (max-width:550px){
+    .partner dd{
+        width:100%;
+    }
+}
+
+/*合作伙伴 结束*/
+
+/*资讯中心*/
+.information{
+    width:100%;
+    display: flex;
+    -webkit-flex: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    dl{
+        margin-top:40px;
+    }
+    dt{
+        width:100%;
+        margin-bottom:20px;
+        border-bottom:2px solid #eaeaea;
+        display: flex;
+        -webkit-flex: flex;
+        justify-content:space-between;
+        height:35px;
+    }
+    .left{
+        font-size:16px;
+        color:#333;
+        padding:0 5px 0 13px;
+        line-height:35px;
+        position:relative;
+        font-weight:normal;
+    }
+    b{
+       position:absolute;
+       width:100%;
+       height:2px;
+       border-radius:1px;
+       background:#e56a71;
+       bottom:-2px;
+       left:0;
+    }
+    .right{
+        font-size:10px;
+        color:#959595;
+        line-height:35px;
+        background:url('../images/add_logo.png')left center no-repeat;
+        padding-left:17px;
+        font-style: 'Arial';
+    }
+    ul{
+        margin-top:22px;
+    }
+    li{
+        font-size:12px;
+        color:#333;
+        line-height:30px;
+    }
+}
+/*资讯中心 结束*/

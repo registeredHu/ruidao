@@ -1,0 +1,521 @@
+
+/*服务小标题*/
+.serve_title{
+    display: flex;
+    -webkit-flex: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:25px;
+    li{
+        border-radius:15px;
+        width: 98px;
+        height:28px;
+        border:1px solid #eee;
+        text-align: center;
+        line-height: 28px;
+        font-size:14px;
+        margin:25px 20px 0 0;
+    }
+    a{
+        color:#333;
+        text-decoration:none;
+    }
+    .active{
+        background: #e5000c;
+        a{
+            color:#fff;
+            text-decoration: none;
+        }
+    }
+
+}
+/*服务小标题 结束*/
+
+.big_title{
+    text-align:center;
+    width: 100%;
+    height:300%;
+    padding-bottom:124px;
+    h2{
+        font-size:48px;
+        color:#484848;
+        line-height:48px;
+        margin: 50px 0 20px;
+        font-weight:bold;
+    }
+    p{
+        font-size:18px;
+        color:#818181;
+        line-height:36px;
+    }
+}
+
+/*全网营销*/
+.marketing{
+    width: 100%;
+    background:#f2f2f2;
+    padding:45px 0 50px ;
+    text-align:center;
+}
+
+/*全网营销 结束*/
+/*全网营销上半部的swiper*/
+.marketing_up{
+    border-top: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+    margin-top:44px;
+    .swiper-slide{
+        border-right: 1px solid #e2e2e2;
+        border-bottom: 1px solid #e2e2e2;
+        margin:0;
+        text-align:center;
+        padding:18px 0;
+    }
+    h3{
+        font-size:14px;
+        color:#333;
+        margin-bottom: 10px;
+    }
+    p{
+        color:#999;
+        font-size:12px;
+    }
+    .active{
+        border-bottom:1px solid #fff;
+        background:#fff;
+        border-top:3px solid #e5000c;
+        padding-top:15px;
+    }
+}
+
+/*全网营销上半部的swiper 结束*/
+/*全网营销下半部的swiper*/
+.marketing_down{
+    border-right:1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+    padding:33px 0;
+    background:#fff;
+    .swiper-slide{
+        display: flex;
+        -webkit-flex: flex;
+        justify-content: space-around;
+        align-items:center;
+    }
+    .test{
+        text-align:center;
+        height:100%;
+        padding:0 60px;
+        h3{
+            color:#e5000c;
+            font-size:24px;
+            font-weight:normal;
+            margin-bottom:24px;
+        }
+        p{
+            font-size:#666;
+            color:#666;
+            margin-bottom:17px;
+
+        }
+    }
+    .img{
+        padding: 0 80px;
+        border-left: 1px solid #e2e2e2;
+        img{
+            width: 100%;
+        }
+    }
+}
+@media (max-width:1100px){
+   .marketing_up p{
+        display: none;
+   }
+}
+@media (max-width:768px){
+    .marketing_down .swiper-slide{
+        display: flex;
+        -webkit-flex: flex;
+        flex-wrap:wrap;
+    }
+}
+/*全网营销下半部的swiper 结束*/
+/*十大理由*/
+.reason{
+    text-align:center;
+    width: 100%;
+    padding-top:50px;
+}
+.reason_box{
+    width: 100%;
+    display: flex;
+    -webkit-flex: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin-top:45px;
+    .reasones{
+        height:220px;
+        width: 18%;
+        border:1px solid #fff;
+        margin-bottom:30px;
+        h2{
+            font-size: 14px;
+            color: #333;
+            padding: 0 10px;
+            margin: 20px 0 15px;
+            text-align: center;
+        }
+        p{
+            margin: 0 0 15px;
+            font-size: 12px;
+            color: #888;
+            line-height: 20px;
+            // height: 40px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            padding:0 10px;
+        }
+    }
+    .imgBox{
+        border: 1px solid #eee;
+        padding:15px 0;
+        b{
+            display: block;
+            margin: 0 auto;
+            width: 80px;
+            height: 80px;
+            border: 1px solid #f1f1f1;
+            border-radius: 50%;
+            transition:.5s;
+            display: flex;
+            -webkit-flex: flex;
+            justify-content: center;
+            align-items:center;
+            opacity:1;
+            position:relative;
+        }
+        .img1{
+            transition:.15s;
+            -moz-transition:.15s; /* Firefox 4 */
+            -webkit-transition:.15s; /* Safari 和 Chrome */
+            -o-transition:.15s; /* Opera */
+        }
+        .img2{
+            position:absolute;
+            top:15px;
+            opacity:0;
+            transition:.5s;
+            -moz-transition:.5s; /* Firefox 4 */
+            -webkit-transition:.5s; /* Safari 和 Chrome */
+            -o-transition:.5s; /* Opera */
+        }
+    }
+}
+/*鼠标放到reason_box上时，隐藏文字显示，更换背景图片*/
+.reasones:hover{
+    border:1px solid #e5000c;
+    .imgBox{
+        border: 0;
+        b{
+            height:34px;
+            border:0;
+            .img1{
+                opacity:0;
+            }
+            .img2{
+                opacity:1;
+                top:5px;
+            }
+        }
+    }
+    p{
+        overflow:visible;
+    }
+}
+
+@media (max-width:1200px){
+   .reason_box  .reasones{
+        width:22%;
+    }
+}
+@media (max-width:1000px){
+   .reason_box  .reasones{
+        width:30%;
+    }
+}
+@media (max-width:768px){
+   .reason_box  .reasones{
+        width:45%;
+    }
+}
+@media (max-width:568px){
+   .reason_box  .reasones{
+        width:80%;
+    }
+}
+/*十大理由 结束*/
+
+.provider{
+    width: 100%;
+    height:410px;
+    background: url('../images/marketing20.jpg') center center no-repeat ;
+}
+.provider_bg{
+    width: 100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.4);
+    padding:115px 0;
+    text-align:center;
+    h2{
+        font-size:48px;
+        color:#fff;
+        font-weight:bold;
+        margin-bottom:40px;
+    }
+    p{
+        font-size:30px;
+        color:#fff;
+        text-align:right;
+        font-weight:normal;
+        margin-right:243px;
+    }
+}
+
+/*易站通案例*/
+.case{
+    text-align:center;
+    padding-top:50px;
+    margin-bottom:50px;
+    .case_title{
+        text-align:left;
+        font-size:22px;
+        color:#333;
+        line-height:22px;
+        margin:13px 0 10px;
+    }
+}
+.specificCase .swiper-slide{
+    height:430px;
+    display: flex;
+    -webkit-flex: flex;
+}
+.case_left {
+    height:100%;
+    padding:40px 27px;
+    background:#f0f0f0;
+    position:relative;
+    dt{
+        margin-bottom:17px;
+    }
+    h4{
+        color:#333;
+        font-size:14px;
+        line-height:28px;
+    }
+    p{
+        color:#666;
+        font-size:12px;
+        margin-top:35px;
+        line-height:24px;
+    }
+    dd:last-child{
+        position:absolute;
+        left:0;
+        top:20px;
+        width:45px;
+        height:60px;
+        background:#e5000c;
+        color:#fff;
+        text-align:center;
+        font-size:14px;
+        padding-top:12px;
+    }
+}
+.case_right{
+    border:1px solid #e2e2e2;
+    padding:35px 22px;
+    display: flex;
+    -webkit-flex: flex;
+    flex-direction:column;
+    // justify-content: center;
+    text-align:center;
+    dt{
+        width: 112px;
+        height:112px;
+        padding-top:25px;
+        background:url('../images/case_30.png') center center no-repeat;
+    }
+    h2{
+        color:#ff3a00;
+        font-size:20px;
+        text-align:center;
+        line-height:20px;
+        margin-bottom:5px;
+    }
+    p{
+        font-size:12px;
+        color:#a0a0a0;
+        line-height:15px;
+    }
+    dd:nth-child(2){
+        width: 107px ;
+        height:107px;
+        border-radius:50%;
+        border:5px solid #e2e2e2;
+        margin-top:24px;
+        padding-top:20px;
+    }
+
+    dd:last-child {
+        h2{
+            font-size:12px;
+            margin:5px 0;
+        }
+        p{
+            margin-top:10px;
+        }
+    }
+
+}
+.case_right2{
+    border:1px solid #e2e2e2;
+    padding:35px 10px 0 6px;
+    display: flex;
+    -webkit-flex: flex;
+    justify-content: center;
+    text-align:center;
+    list-style:none;
+    dd{
+        position:relative;
+    }
+    ul{
+        display: flex;
+        -webkit-flex: flex;
+        flex-direction:column;
+        align-items: center;
+        position:relative;
+        z-index:3;
+    }
+    .l1{
+        margin-top:24px;
+        width: 31px;
+        height:31px;
+        border-radius:50%;
+        border:5px solid #e2e2e2;
+        line-height:18px;
+        text-align:center;
+        color:#f65730;
+        font-size:11px;
+        background:#fff;
+
+    }
+    .l2{
+        margin-top:54px;
+        width: 43px;
+        height:43px;
+        border-radius:50%;
+        border:5px solid #e2e2e2;
+        line-height:38px;
+        text-align:center;
+        font-size:11px;
+        color:#f65730;
+        text-align:center;
+         background:#fff;
+
+    }
+    .l3{
+        margin-top:57px;
+        width: 60px;
+        height:60px;
+        background:url('../images/case_20.jpg')center center no-repeat;
+        color:#f65730;
+        font-size:17px;
+        line-height:60px;
+
+    }
+    .l4{
+        width: 1px;
+        height:212px;
+        background:#e2e2e2;
+        position:absolute;
+        top:-2px;
+        left:50%;
+        z-index: -2;
+    }
+    span{
+        display: block;
+        width: 76px;
+        height:17px;
+        background:url('../images/case_down2.jpg')center center no-repeat;
+        color:#fff;
+        line-height:17px;
+        text-align:center;
+        font-size:11px;
+    }
+    p{
+        font-size:12px;
+        color:#a0a0a0;
+    }
+    .one{
+        margin-top:30px;
+    }
+    .two{
+        margin-top:20px;
+    }
+    .three{
+        margin-top:55px;
+    }
+
+}
+.case_right3{
+    border:1px solid #e2e2e2;
+    padding:35px 22px;
+    display: flex;
+    -webkit-flex: flex;
+    flex-direction:column;
+    // justify-content: center;
+    text-align:center;
+    h2{
+        color:#ff3a00;
+        font-size:20px;
+        text-align:center;
+        line-height:20px;
+        margin-bottom:5px;
+    }
+    p{
+        font-size:12px;
+        color:#a0a0a0;
+        line-height:15px;
+    }
+    dt{
+        width: 107px ;
+        height:107px;
+        border-radius:50%;
+        border:5px solid #e2e2e2;
+        padding-top:20px;
+    }
+    dd{
+        width: 112px;
+        height:112px;
+        padding-top:25px;
+        margin-top:62px;
+        background:url('../images/case_30.png') center center no-repeat;
+    }
+}
+.case_pag{
+    display:none;
+}
+.case_pag .swiper-pagination-bullet {
+  width: 30px;
+  height: 2px;
+  background: #0d0d0d;
+  border-radius: 0;
+  opacity: 0.7;
+}
+.case_pag .swiper-pagination-bullet-active {
+  background: #da010c;
+}
+/*易站通案例 结束*/

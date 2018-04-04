@@ -1,0 +1,415 @@
+/*网站建设*/
+.design_box {
+  background: url('../images/index_waist.jpg') center center no-repeat;
+  padding: 45px 0 50px;
+}
+.design {
+  margin-top: 44px;
+}
+.design .swiper-slide {
+  height: 290px;
+  padding: 27px 19px;
+  text-align: center;
+  position: relative;
+}
+.design .swiper-slide h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.design .swiper-slide p {
+  font-size: 14px;
+  color: #fff;
+}
+.design .web_img_box {
+  height: 149px;
+  display: flex;
+  -webkit-flex: flex;
+  align-items: center;
+  justify-content: center;
+}
+.design .first {
+  border-top: 10px solid #a0c93d;
+  background: #94bf2c;
+}
+.design .second {
+  border-top: 10px solid #1dbdeb;
+  background: #08acdb;
+}
+.design .three {
+  border-top: 10px solid #33cbd7;
+  background: #13c0ce;
+}
+.design .four {
+  border-top: 10px solid #fcbf3d;
+  background: #ebb135;
+}
+.design .four .last li {
+  height: 25%;
+}
+.design .four .last li:first-child span {
+  background: #e5000c;
+  color: #fff;
+}
+.design .four .last li:first-child p {
+  color: #e5000c;
+}
+.design .last {
+  width: 100%;
+  height: 300px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  border: 1px solid #ddd;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}
+.design .last ul {
+  height: 100%;
+  width: 100%;
+}
+.design .last li {
+  height: 33.3333%;
+  text-align: left;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+.design .last span {
+  height: 24px;
+  line-height: 22px;
+  border: 1px solid #adadad;
+  display: inline-block;
+  padding: 0 10px;
+}
+.design .last p {
+  width: 100%;
+  font-size: 12px;
+  color: #888;
+  margin-top: 10px;
+}
+.design .swiper-slide:hover .last {
+  transform: translateY(-290px);
+  -ms-transform: translateY(-290px);
+  /* IE 9 */
+  -moz-transform: translateY(-290px);
+  /* Firefox */
+  -webkit-transform: translateY(-290px);
+  /* Safari 和 Chrome */
+}
+.design_pag {
+  display: none;
+}
+.design_pag .swiper-pagination-bullet {
+  width: 25px;
+  height: 2px;
+  background: #0d0d0d;
+  border-radius: 0;
+  opacity: 0.7;
+}
+.design_pag .swiper-pagination-bullet-active {
+  background: #da010c;
+}
+/*网站建设 结束*/
+/*最新案例*/
+.nex_case_box {
+  margin-top: 45px;
+}
+.case_list {
+  width: 100%;
+  display: flex;
+  -webkit-flex: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.case_list dd {
+  width: 22%;
+  margin: 50px  0;
+}
+.case_list dd .layer_box {
+  width: 100%;
+  position: relative;
+}
+.case_list dd .layer_box:hover .layer {
+  opacity: 1;
+}
+.case_list dd .layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  -webkit-flex: flex;
+  align-items: center;
+  justify-content: center;
+}
+.case_list dd .layer img {
+  width: 50px;
+  height: 50px;
+}
+.case_list dd img {
+  width: 100%;
+}
+.case_list dd h3 {
+  color: #333;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 40px;
+}
+.case_list dd p {
+  color: #888;
+  font-size: 12px;
+}
+@media (max-width: 1200px) {
+  .case_list dd {
+    width: 35%;
+  }
+}
+@media (max-width: 768px) {
+  .case_list dd {
+    width: 80%;
+  }
+}
+.knowMore_box {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.knowMore {
+  width: 234px;
+  height: 46px;
+  border-radius: 25px;
+  border: 1px solid #e5000c;
+  background: none;
+  text-align: left;
+  padding-left: 28px;
+  line-height: 46px ;
+  color: #e5000c;
+  font-size: 16px;
+  background: url('../images/index_waistbuttom1.png') 170px center no-repeat;
+}
+/*最新案例 结束*/
+/*合作流程*/
+.flow {
+  background: #f6f6f6;
+  padding: 50px 0;
+}
+.flow_box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-flex: flex;
+  text-align: center;
+  margin-top: 50px;
+}
+.flow_box h3 {
+  font-size: 20px;
+  width: 100%;
+  line-height: 40px;
+  margin: 0 0 15px 0;
+}
+.flow_box dt {
+  height: 36px;
+  margin: 0 0 3px 0;
+  color: #fff;
+  font-size: 16px;
+  background: #004986;
+  font-weight: normal;
+  line-height: 36px;
+}
+.flow_box dd {
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin: 0 0 3px 0;
+  color: #fff;
+  font-size: 12px;
+}
+/*前期*/
+.prophase {
+  width: 20%;
+  padding: 0 15px;
+}
+.prophase dl {
+  width: 100%;
+}
+.prophase h3 {
+  color: #ff9900;
+  border-bottom: 1px solid #ff9900;
+}
+.prophase dd {
+  background: #ff9900;
+}
+.prophase dd:hover {
+  background: #e28800;
+}
+/*中期*/
+.mid-term {
+  width: 60%;
+  padding: 0 15px;
+}
+.mid-term h3 {
+  color: #13c0ce;
+  border-bottom: 1px solid #13c0ce;
+}
+.list_box {
+  width: 100%;
+  display: flex;
+  -webkit-flex: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.list_box dl {
+  width: 30%;
+}
+.list_box dd {
+  background: #13c0ce;
+}
+.list_box dd:hover {
+  background: #009894;
+}
+/*后期*/
+.later-stage {
+  width: 20%;
+  padding: 0 15px;
+}
+.later-stage h3 {
+  color: #4489ca;
+  border-bottom: 1px solid #4489ca;
+}
+.later-stage dd {
+  background: #08acdb;
+}
+.later-stage dd:hover {
+  background: #1b6dba;
+}
+@media (max-width: 768px) {
+  .prophase {
+    width: 100%;
+  }
+  .mid-term {
+    width: 100%;
+  }
+  .mid-term dl {
+    width: 100%;
+  }
+  .later-stage {
+    width: 100%;
+  }
+  .flow_box dd {
+    display: none;
+  }
+}
+/*合作流程 结束*/
+/*售后服务*/
+.after-sales {
+  width: 100%;
+  display: flex;
+  -webkit-flex: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.after-sales dd {
+  display: flex;
+  -webkit-flex: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22%;
+  margin-top: 55px;
+}
+.after-sales .word {
+  margin-left: 20px;
+}
+.after-sales h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0 5px 0;
+}
+.after-sales p {
+  font-size: 12px;
+  color: #aaa;
+  margin: 0;
+  line-height: 1.6;
+  height: 40px;
+}
+@media (max-width: 990px) {
+  .after-sales dd {
+    width: 40%;
+  }
+}
+@media (max-width: 700px) {
+  .after-sales dd {
+    width: 80%;
+  }
+}
+/*售后服务 结束*/
+.middle_bg {
+  width: 100%;
+  background: url('../images/webDesign_bg.jpg') center center no-repeat rgba(0, 0, 0, 0.4);
+  padding: 130px 0 190px;
+  text-align: center;
+}
+.middle_bg h2 {
+  font-size: 60px;
+  color: #fffefe;
+  margin-bottom: 50px;
+}
+.middle_bg p {
+  font-size: 18px;
+  color: #fff;
+}
+/*常见问题*/
+.frequently_box {
+  width: 100%;
+  display: flex;
+  -webkit-flex: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 45px 0 70px;
+}
+.frequently_box li {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.frequently_box li:last-child {
+  border-bottom: 0;
+}
+.frequently_box h3 {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+  margin-bottom: 6px;
+}
+.frequently_box p {
+  font-size: 12px;
+  color: #888;
+  line-height: 1.8;
+  margin: 0;
+}
+.questions_list {
+  width: 47%;
+}
+.comment_list {
+  width: :47%;
+}
+.comment_list p:last-child {
+  color: #d64141;
+}
+@media (max-width: 1200px) {
+  .questions_list {
+    width: 100%;
+  }
+  .comment_list {
+    width: 100%;
+  }
+}
+/*常见问题 结束*/

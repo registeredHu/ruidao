@@ -1,0 +1,90 @@
+.banner{
+  margin-bottom:45px;
+}
+.heartfelt{
+    width: 100%;
+  display: flex;
+  -webkit-flex: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom:69px;
+  dd{
+    width: 22%;
+    text-align: center;
+
+  }
+  h2{
+    font-size:24px;
+    color:#333;
+    line-height: 24px;
+  }
+  p{
+    font-size:14px;
+    color:#666;
+    margin-top:25px;
+  }
+}
+.heartfelt_img{
+    height: 148px;
+    display: flex;
+  -webkit-flex: flex;
+  align-items:center;
+  justify-content: center;
+}
+@media (max-width:1100px){
+    .heartfelt dd{
+        width: 40%;
+    }
+};
+
+.contact_us{
+    width: 100%;
+    background: url('../images/contact_bg.png') center center no-repeat;
+    padding:45px 0 ;
+    .marketing_title{
+        dt{
+            color:#fff;
+        }
+        b{
+            background:#fff;
+        }
+        span{
+            border-bottom:1px solid #fff;
+        }
+        dd{
+            color:#fff;
+        }
+    }
+}
+.contact_type{
+    width: 100%;
+  display: flex;
+  -webkit-flex: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  .img_box{
+    height:65px;
+  }
+  dd{
+    flex-direction:column;
+    display: flex;
+      -webkit-flex: flex;
+      align-items:center;
+      justify-content: center;
+    width: 22%;
+    text-align:center;
+    padding:30px 0;
+    background:rgba(0, 0, 0, 0.8);
+    color:#fff;
+    font-size:14px;
+    margin-top:16px;
+  }
+  dd:hover{
+    background:#b9010b;
+  }
+}
+@media (max-width:1100px){
+    .contact_type dd{
+        width: 40%;
+    }
+};

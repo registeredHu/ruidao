@@ -1,0 +1,190 @@
+.marketing_box .text{
+
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    line-height: 2;
+    margin: 30px 0;
+}
+.about_img{
+  width: 100%;
+  display: flex;
+  -webkit-flex: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  li{
+    width: 30%;
+    margin-bottom:45px;
+    img{
+        width: 100%;
+    }
+  }
+  p{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+    line-height:20px;
+    text-align: center;
+  }
+}
+@media (max-width:1000px){
+    .about_img li{
+        width: 45%;
+    }
+}
+@media (max-width:678px){
+    .about_img li{
+        width: 80%;
+    }
+    .about_img{
+        justify-content: space-around;
+    }
+}
+
+/*企业文化*/
+.culture{
+    background: #f6f6f6;
+    padding:30px 0 ;
+}
+.culture_c{
+  width: 100%;
+  display: flex;
+  -webkit-flex: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.culture_l{
+    width:55%;
+    margin-top:50px;
+    h4{
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    .p1{
+        position: relative;
+        font-size: 14px;
+        color: #666;
+        line-height: 2;
+        margin-bottom: 20px;
+    }
+    .p1::after{
+        content:"";
+        width: 80px;
+        height: 1px;
+        background: #4bcdd9;
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+    }
+    .p2{
+        font-size: 14px;
+        color: #666;
+        line-height: 2;
+    }
+}
+.culture_r{
+    width: 40%;
+    margin-top:50px;
+    img{
+        width: 100%;
+    }
+}
+@media  (max-width:768px){
+    .culture_r{
+        width: 100%;
+    }
+    .culture_l{
+        width: 100%;
+    }
+}
+/*企业文化 结束*/
+
+/*服务优势 */
+.advantage_box{
+  width: 100%;
+  display: flex;
+  -webkit-flex: flex;
+
+  margin-top:50px;
+  .left1,.left2,.left3{
+    margin-bottom:25px;
+  }
+  h4{
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  p{
+    font-size: 14px;
+    color: #666;
+    line-height: 1.8;
+  }
+  .left1 h4{
+    color: #28718f;
+  }
+  .left2 h4{
+    color: #0e3b6e;
+  }
+  .left3 h4{
+    color: #f08038;
+  }
+}
+@media  (max-width:768px){
+    .advantage_box{
+        flex-wrap:wrap;
+    }
+}
+/*服务优势 结束*/
+
+/*产品与服务*/
+.product{
+    background: #f6f6f6;
+    padding:30px 0 ;
+}
+.product_img{
+    width: 100%;
+    display: flex;
+    -webkit-flex: flex;
+    justify-content:space-between;
+    margin:64px 0;
+}
+@media  (max-width:1200px){
+    .product_img{
+        flex-wrap:wrap;
+        justify-content:space-around;
+        img{
+            width: 100%;
+            height:auto;
+        }
+    }
+}
+
+/*产品与服务 结束*/
+
+.us_text{
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    line-height: 2;
+    margin: 30px 0;
+}
+.us_img{
+    width: 100%;
+    display: flex;
+    -webkit-flex: flex;
+    justify-content:space-between;
+    img{
+        width:24%;
+        margin-bottom:45px;
+    }
+}
+@media  (max-width:768px){
+    .us_img{
+        flex-wrap:wrap;
+        justify-content:space-around;
+        img{
+            width: 80%;
+        }
+    }
+}
